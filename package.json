@@ -1,0 +1,12 @@
+{
+  "name": "netmonitor",
+  "version": "1.0.0",
+  "description": "Tailscale Network & Services Monitoring Dashboard",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev:server": "node server/index.js",
+    "dev:client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "build": "npm --prefix client run build"
+  }
+}

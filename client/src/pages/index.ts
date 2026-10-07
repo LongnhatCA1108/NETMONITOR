@@ -1,0 +1,7 @@
+export * from './home'
+export * from './devices'
+export * from './services'
+export * from './system-settings'
+export * from './soc-settings'
+export * from './dashboard-demo'
+export * from './soc-dashboard'
